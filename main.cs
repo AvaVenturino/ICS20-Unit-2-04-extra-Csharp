@@ -20,9 +20,9 @@ class Program
         Console.Write("Enter the height of the triangle: ");
         Height = Convert.ToInt32(Console.ReadLine());
 
-        double Area = ( Base * Height) / 2;
+        Area = ( Base * Height) / 2;
 
-        Console.Write("Area of a Triangle = " + Area 'cm');
+        Console.Write("Area of a Triangle = " + Area);
     
         Console.WriteLine("\nDone.");
     }
