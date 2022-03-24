@@ -15,17 +15,20 @@ class Program
 
         Console.WriteLine("This program finds the area of a rectangle.");
         Console.WriteLine("");
-        Console.Write("Enter the length of the rectangle (mm²):");
+        Console.Write("Enter the length of the rectangle (mm): ");
         Length = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the width of the rectangle (mm): ");
         Width = Convert.ToInt32(Console.ReadLine());
 
-        Area = Length * Width;
-        Perimeter = 2 * (Length + Width);
+        Double Area = Length * Width;
+        Double Perimeter = 2 * (Length + Width);
 
-        Console.Write("Area of the rectangle = " + Area + "mm²" );
-        Console.Write("Perimeter of the rectangle = " + Perimeter + "mm" );
-    
+        Console.WriteLine("");
+        Console.Write( "Area of the rectangle = " + Area + " mm²" );
+        Console.WriteLine("");
+        Console.Write( "Perimeter of the rectangle = " + Perimeter + " mm" );
+        Console.ReadKey();
+      
         Console.WriteLine("\nDone.");
     }
 }
