@@ -24,11 +24,10 @@ class Program
         Double Perimeter = 2 * (Length + Width);
 
         Console.WriteLine("");
-        Console.Write( "Area of the rectangle = " + Area + " mm²" );
+        Console.Write("Area of the rectangle = " + Area + " mm²");
         Console.WriteLine("");
-        Console.Write( "Perimeter of the rectangle = " + Perimeter + " mm" );
+        Console.Write("Perimeter of the rectangle = " + Perimeter + " mm");
         Console.ReadKey();
-      
         Console.WriteLine("\nDone.");
     }
 }
