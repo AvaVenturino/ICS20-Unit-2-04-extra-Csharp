@@ -13,7 +13,7 @@ class Program
         int Length;
         int Width;
 
-        Console.WriteLine("This program finds the area of a rectangle.");
+        Console.WriteLine("This program finds the area and perimeter of a rectangle.");
         Console.WriteLine("");
         Console.Write("Enter the length of the rectangle (mm): ");
         Length = Convert.ToInt32(Console.ReadLine());
