@@ -9,7 +9,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // This function acc2epts user input
+        // This function accepts user input
         int Base;
         int Height;
 
