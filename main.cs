@@ -15,15 +15,15 @@ class Program
 
         Console.WriteLine("This program finds the area of a triangle.");
         Console.WriteLine("");
-        Console.Write("Enter the base of the triangle (mm): ");
+        Console.Write("Enter the base of the triangle (cm): ");
         Base = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter the height of the triangle (mm): ");
+        Console.Write("Enter the height of the triangle (cm): ");
         Height = Convert.ToInt32(Console.ReadLine());
 
         Double Area = (Base * Height) /2;
 
         Console.WriteLine("");
-        Console.Write("Area of the triangle = " + Area + " mm²");
+        Console.Write("Area of the triangle = " + Area + " cm²");
         Console.ReadKey();
         Console.WriteLine("\nDone.");
     }
