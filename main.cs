@@ -9,24 +9,21 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // This function accepts user input
-        int Length;
-        int Width;
+        // This function acc2epts user input
+        int Base;
+        int Height;
 
-        Console.WriteLine("This program finds the area and perimeter of a rectangle.");
+        Console.WriteLine("This program finds the area triangle.");
         Console.WriteLine("");
-        Console.Write("Enter the length of the rectangle (mm): ");
-        Length = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter the width of the rectangle (mm): ");
-        Width = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the base of the triangle (mm): ");
+        Base = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the height of the triangle (mm): ");
+        Height = Convert.ToInt32(Console.ReadLine());
 
-        Double Area = Length * Width;
-        Double Perimeter = 2 * (Length + Width);
+        Double Area = (Base * Height) /2;
 
         Console.WriteLine("");
-        Console.Write("Area of the rectangle = " + Area + " mm²");
-        Console.WriteLine("");
-        Console.Write("Perimeter of the rectangle = " + Perimeter + " mm");
+        Console.Write("Area of the triangle = " + Area + " mm²");
         Console.ReadKey();
         Console.WriteLine("\nDone.");
     }
