@@ -13,7 +13,7 @@ class Program
         int Base;
         int Height;
 
-        Console.WriteLine("This program finds the area triangle.");
+        Console.WriteLine("This program finds the area of a triangle.");
         Console.WriteLine("");
         Console.Write("Enter the base of the triangle (mm): ");
         Base = Convert.ToInt32(Console.ReadLine());
